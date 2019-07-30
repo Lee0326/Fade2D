@@ -1,0 +1,15 @@
+build/example1.dep example1.o: example1.cpp ../include_fade2d/Fade_2D.h \
+ ../include_fade2d/common.h ../include_fade2d/fadeVersion.h \
+ ../include_fade2d/Point2.h ../include_fade2d/Vector2.h \
+ ../include_fade2d/Triangle2.h \
+ ../include_fade2d/TriangleAroundVertexIterator.h \
+ ../include_fade2d/Visualizer2.h ../include_fade2d/Circle2.h \
+ ../include_fade2d/Segment2.h ../include_fade2d/Color.h \
+ ../include_fade2d/Label.h ../include_fade2d/Bbox2.h \
+ ../include_fade2d/Edge2.h ../include_fade2d/Zone2.h \
+ ../include_fade2d/UserPredicates.h ../include_fade2d/ConstraintGraph2.h \
+ ../include_fade2d/ConstraintSegment2.h ../include_fade2d/Performance.h \
+ ../include_fade2d/MeshGenParams.h ../include_fade2d/MsgBase.h \
+ ../include_fade2d/SegmentChecker.h \
+ ../include_fade2d/testDataGenerators.h ../include_fade2d/freeFunctions.h \
+ ../include_fade2d/License.h
